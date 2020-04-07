@@ -1,6 +1,6 @@
 # adaf_xray
 
-A local model to fit the ADAF(advection dominated accretion flow) in Xspec and ISIS.
+A local model to fit the ADAF(advection dominated accretion flow) in [Xspec](https://heasarc.gsfc.nasa.gov/xanadu/xspec/) and [ISIS](http://space.mit.edu/cxc/isis/).
 
 Because the maximum temperature of apec is about 64(or 86)keV, the inner and hotter area is caculated by bremsstrahlung.
 Tint is the temparature at the interface between apec or bremsstrahlung. 
