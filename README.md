@@ -14,3 +14,7 @@ Please compile this model as the following steps
 initpackage adaf lmodel.dat .
 rm -f *~ *.o *FunctionMap.* lpack_* Makefile pkgIndex.tcl 
 
+
+## An example
+![An example](example.png)
+
