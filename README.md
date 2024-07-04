@@ -8,13 +8,16 @@ Scale is the normalization which makes the connection at the boundary at Tint sm
 Note that, bremsstrahlung doesn't consider metal abundance. 
 
 
-## Installation
-Please compile this model as the following steps
+# Instruction
+Compile this model with the following steps in the Xspec interface:
 
+```shell
 initpackage adaf lmodel.dat .
-rm -f *~ *.o *FunctionMap.* lpack_* Makefile pkgIndex.tcl 
+rm -f *~ *.o *FunctionMap.* lpack_* Makefile pkgIndex.tcl
+lmod adaf .
+```
 
-
-## An example
+## Example 
+**M81\***
 ![An example](example.png)
 
